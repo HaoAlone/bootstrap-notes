@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+	</head>
+	<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-1"></div>
+			<div class="col-sm-10">
+				<h2 class="page-header">折叠卡</h2>
+				<button class="btn btn-success" data-toggle="collapse" data-target="#mydata">
+					点击显示信息
+				</button>
+				<div class="collapse in" id="mydata">
+					我是你们爸爸<br>
+					我是爸爸
+				</div>
+				<h2 class="page-header">列表折叠<small>只显示一行</small></h2>
+				<div class="panel-group" id="zdk">
+					<div class="panel panel-info">
+						<div class="panel-heading">
+							<div class="panel-title">
+								<a href="#wx" data-toggle="collapse" data-parent="#zdk">吴昕</a>
+							</div>
+						</div>
+						
+						<div class="panel-collapse collapse in" id="wx">
+							<div class="panel-body panel-collapse collapse in">
+								本章将讲解 Bootstrap 标签。标签可用于计数、提示或页面上其他的标记显示。使用 class .label 来显示标签，如下面的实例所示：
+							</div>
+						</div>
+					</div>
+					
+					<div class="panel panel-info">
+						<div class="panel-heading">
+							<div class="panel-title">
+								<a href="#ww" data-toggle="collapse" data-parent="#zdk">呜呜</a>
+							</div>
+						</div>
+						
+						<div class="panel-collapse collapse " id="ww">
+							<div class="panel-body" panel-collapse collapse in>
+								本章将讲解 Bootstrap 标签。标签可用于计数、提示或页面上其他的标记显示。使用 class .label 来显示标签，如下面的实例所示：
+							</div>
+						</div>
+					</div>
+					
+					<div class="panel panel-info">
+						<div class="panel-heading">
+							<div class="panel-title">
+								<a href="#aa" data-toggle="collapse" data-parent="#zdk">wwww</a>
+							</div>
+						</div>
+						
+						<div class="panel-collapse collapse " id="aa">
+							<div class="panel-body" panel-collapse collapse in>
+								都别说话我是你们的爹
+							</div>
+						</div>
+						
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<script type="text/javascript" src='js/jquery.min.js'></script>
+	<script type="text/javascript" src='js/bootstrap.min.js'></script>
+	</body>
+</html>

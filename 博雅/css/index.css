@@ -1,0 +1,21 @@
+@charset "utf-8";
+.logo{
+		width:200px;
+		background-image:url(../img/logo.png);
+		background-size:cover;
+		border-radius: 50%;
+}
+#nav{
+		background: #191D3A;
+}
+#nav ul li a{
+	color: #81778a;
+	background: #191d3a;
+}
+#nav ul li a:hover{
+	background: #252947;
+	color: #FFFFFF;
+}
+#navbar ul li button{
+	margin: 10px 0 0 20px;
+}

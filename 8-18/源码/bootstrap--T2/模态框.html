@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<style>
+			ul li a{
+				color: lightgreen;
+			}
+		</style>
+	</head>
+	<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-1"></div>
+			<div class="col-sm-10">
+				<h2 class="page-header">模态框</h2>
+				<button data-toggle="modal" data-target="#login" class="btn btn-success btn-lg">
+					信息
+				</button>
+				<div class="modal" id="login">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">请输入您的信息</h4>
+							</div>
+							
+							<div class="modal-body">
+								<form action="" role="form" class="form-horizontal">
+									<div class="form-group">
+										<label for="name" class="col-sm-2">用户名</label>
+										<div class="col-sm-10">
+											<input type="text" class="form-control" placeholder="用户名" />
+									    </div>
+									</div>
+									<div class="form-group">
+										<label for="name" class="col-sm-2">用户密码</label>
+										<div class="col-sm-10">
+											<input type="text" class="form-control" placeholder="用户密码" />
+									    </div>
+									</div>
+									<div class="form-group">
+										<label for="name" class="col-sm-2">请确认用户密码</label>
+										<div class="col-sm-10">
+											<input type="text" class="form-control" placeholder="请确认用户密码" />
+									    </div>
+									</div>
+									<div class="form-group">
+										<label for="name" class="col-sm-2">email</label>
+										<div class="col-sm-10">
+											<input type="text" class="form-control" placeholder="邮箱" />
+									    </div>
+									</div>
+									<div class="form-group">
+										<label for="name" class="col-sm-2">地区</label>
+										<div class="col-sm-10">
+											<select class="form-control">
+												<option>江苏</option>
+												<option>广州</option>
+											</select>
+										</div>
+									</div>
+									<div class="form-group">
+										<label for="sex" class="col-sm-2">性别</label>
+										<div class="radio col-sm-10">
+											<label for="">
+												<input type="radio"  checked="checked" name="sex"/>男
+											</label>
+											<label for="">
+												<input type="radio"  name="sex"/>女
+											</label>
+											
+										</div>
+									</div>
+									<div class="form-group">
+										<label for="hobby" class="col-sm-2">爱好</label>
+										<div class="checkbox checkbox-inline">
+											<label for="">
+												<input type="checkbox" />篮球
+											</label>
+											<label for="">
+												<input type="checkbox" />动漫
+											</label>
+											<label for="">
+												<input type="checkbox" />网游
+											</label>
+											<label for="">
+												<input type="checkbox" />看书
+											</label>
+										</div>
+									</div>
+									<div class="form-group">
+										<label for="sex" class="col-sm-2">注册须知</label>
+										<div class="radio col-sm-10">
+											<label for="">
+												<textarea>qeqwdeascfdfgedsfc</textarea>
+											</label>
+										</div>
+									</div>
+									<div class="form-group">
+										<label for="" class="col-sm-2">同意</label>
+										<div class="col-sm-10">
+											<label for="">
+												<input type="checkbox" />
+											</label>
+										</div>
+									</div>
+								</form>
+							</div>
+							
+							<div class="modal-footer">
+								<button class="btn btn-danger" data-dismiss="modal">关闭</button>
+								<button class="btn btn-success">提交</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<script type="text/javascript" src='js/jquery.min.js'></script>
+	<script type="text/javascript" src='js/bootstrap.min.js'></script>
+	</body>
+</html>

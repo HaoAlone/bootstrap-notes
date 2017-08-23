@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.min.css">
+		<style>
+			#data{
+				/*隐藏完还占这空间*/
+				visibility: hidden;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-1"></div>
+				<div class="col-sm-8">
+					<h2 class="page-header">
+						徽章
+						<small>按钮会长</small>
+					</h2>
+					<button class="btn btn-success">
+						消息<span class="badge" style="background: red; color: #ffffff;" >20</span>
+					</button>
+					<h2 class="page-header">
+						徽章
+						<small>列表徽章</small>
+					</h2>
+					 <ul class="nav">
+				 	<li><a href="#">
+				 		消息
+				 		<span class="badge" style="background: red; color: #ffffff;" id="data"> 20</span>
+				 	</a></li>
+				 </ul>
+				 <br /><br />
+				 
+				 <button class="btn btn-info" onclick="show()">
+				 	朱茵，那个人又来消息了！！
+				 </button>
+				</div>
+				
+			</div>
+		</div>
+		<script>
+			flag = 0;
+			//0代表隐藏 1代表显示
+			function show(){
+//				$("#data")
+				var data = document.getElementById("data");
+				if(flag==0){
+					data.style.visibility = "visible"
+					flag = 1;
+				}
+				else{
+					data.style.visibility = "hidden";
+				flag = 0;
+				}
+				
+			}
+//			jquery写法
+//			function show(){
+//				$("data")h mhm
+//			}
+		</script>
+		
+		<script src="bootstrap/jquery.min.js"></script>
+		<script src="bootstrap/bootstrap.min.js"></script>
+	</body>
+</html>

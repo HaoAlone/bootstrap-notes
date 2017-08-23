@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<div class="container">
+			<!--<div class="row">
+				<div class="col-lg-1 xm">项目一</div>
+				<div class="col-lg-1 xm">项目2</div>
+				<div class="col-lg-1 xm">项目3</div>
+				<div class="col-lg-1">项目一</div>
+				<div class="col-lg-1">项目一</div>
+				<div class="col-lg-1">项目一</div>
+				<div class="col-lg-1">项目一</div>
+				<div class="col-lg-1">项目一</div>
+			</div>-->
+		
+		<div class="row">
+			<h2 class="page-header">table</h2>
+			<table class="table table-condensed table-striped table-bordered table-hover">
+				<caption class="text-center"> 家庭信息表</caption>
+					<thead >
+						<th class="active">姓名</th>
+						<th>年龄</th>
+						<th>性别</th>
+						<th>父母</th>
+						</thead>
+					<tr class="info">
+						<td>小名</td>
+						<td>20</td>
+						<td>男</td>
+						<td>无</td>
+					</tr>
+					<tr class="success">
+						<td>小名</td>
+						<td>20</td>
+						<td>男</td>
+						<td>无</td>
+					</tr>
+					<tr class="danger">
+						<td>小名</td>
+						<td>20</td>
+						<td>男</td>
+						<td>无</td>
+					</tr>
+		 	</table>
+		</div>
+		
+		<div class="col">
+			<form action="" role="form" class="form-horizontal">
+				<p>Form 表单</p>
+				<div class="form-group">
+					<label for="Name" class="col-sm-1">用户名：</label>
+					<div class="col-sm-11">
+					<input type="text" placeholder="please input your name" class="form-control">
+					</div>
+				</div>
+				
+				<div class="form-group">
+					<label for="Email" class="col-sm-1">email:：</label>
+					<div class="col-sm-11">
+					<input type="text" disabled="disabled" placeholder="please input your email" class="form-control">
+					</div>
+				</div>
+				<div class="form-group has-warning">
+					<label for="pwd">密码：</label>
+					<input type="text" placeholder="please input your psw" class="form-control">
+				</div>
+				<div class="form-group">
+					<label for="Email">再次输入密码:：</label>
+					<input type="text" placeholder="please input your psw" class="form-control">
+				</div>
+				<button type="submit" class="btn btn-default">提交</button>
+			
+				<div class="form-group">
+					<label for="dizhi" class=" col-sm-2">选择地址</label>
+					<div class="col-sm-10">
+						<select name="" id="dizhi" class="form-control">
+							<option value="">beijing</option>
+							<option value="">南京</option>
+							<option value="">上海</option>
+							<option value="">江苏</option>
+						</select>
+					</div>	
+				</div>
+				
+				<div class="form-group">
+					<label for="" class="col-sm-2 control-label">性别</label>
+					<div class="radio col-sm-offset-2">
+						<label for="">
+							<input type="radio" name="sex"  /> 男
+						</label>
+						<label for="">
+							<input type="radio" name="sex" />女
+						</label>
+					</div>
+				</div>
+				
+				<div class="form-group">
+						<label for="" class="col-sm-2 control-label">爱好</label>
+						<div class="col-sm-10 ">
+							<label for="" class="checkbox-inline">
+								<input type="checkbox" />蔬菜
+							</label>
+							<label for="" class="checkbox-inline">
+								<input type="checkbox" />运动
+							</label>
+							<label for="" class="checkbox-inline">
+								<input type="checkbox" />星猫
+							</label>
+							<label for="" class="checkbox-inline">
+								<input type="checkbox" />pig
+							</label>
+						</div>
+				</div>
+				<div class="one">
+					<div class="col-sm-2"></div>
+					<div class="col-sm-8">
+						<span>默认按钮</span>
+						<button class="btn btn-default"> 默认按钮</button>
+						<button class="btn btn-primary">初始按钮</button>
+						<button class="btn btn-info">信息按钮</button>
+						<button class="btn btn-success">成功按钮</button>
+						<button class="btn btn-warning">警告按钮</button>
+						<button class="btn btn-danger">危险按钮</button>
+						<button class="btn btn-link">连接按钮</button>
+						<br />
+						<a href="http://www.baidu.com" class="btn btn-danger"> 按钮链接</a>
+						<input type="button" class="btn btn-lg btn-success" value="大"/>
+						<br />
+						<a href="#" class="btn btn-block btn-info">掏钱吧</a>
+					
+					
+					</div>
+				</div>
+			</form>
+		</div>
+		
+		
+	</div>
+			
+		<script src="bootstrap/jquery.min.js"></script>
+		<script src="bootstrap/bootstrap.min.js"></script>
+	</body>
+</html>

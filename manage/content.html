@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/animate.min.css">
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+		<link rel="stylesheet" href="css/manage.css" />
+		<link rel="stylesheet" href="css/base.css" />
+	</head>
+	<body>
+		<div class="navbar navbar-default" role="navigation" id="nav">
+			<div class="col-sm-1"></div>
+			<div class="col-sm-11">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<a href="#index.html" class="navbar-brand">后台管理</a>
+						<button class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="collapse navbar-collapse" id="navbar">
+						<ul class="nav navbar-nav col-sm-10">
+							<li><a href="index.html"><i class=" fa fa-home"></i>后台首页</a></li>
+							<li><a href="user.html"><i class=" fa fa-user "></i>用户管理</a></li>
+							<li><a href="content.html"><i class=" fa fa-book"></i>内容管理</a></li>
+							<li><a href="label.html"><i class=" fa fa-pencil"></i>标签管理</a></li>
+							<li class="dropdown col-sm-offset-5">
+								<a href="" class="dropdown-toggle" data-toggle="dropdown">
+									admin<span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu ">
+									<li><a><i class="fa fa-arrows" aria-hidden="true"></i>前台首页</a></li>
+									<li><a><i class=" fa fa-user "></i>个人主页</a></li>
+									<li><a><i class="fa fa-cog" aria-hidden="true"></i>个人设置</a></li>
+									<li><a><i class="fa fa-address-card" aria-hidden="true"></i>账户中心</a></li>
+									<li><a><i class="fa fa-heart" aria-hidden="true"></i>我的收藏</a></li>
+								</ul>
+							</li>
+							<li class=""><a href=""><i class=" fa fa-power-off "></i>退出</a></li>
+						</ul>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="content">
+			<div class="col-sm-1"></div>
+			<div class="col-sm-11">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-sm-2 btn btn-group-vertical">
+							<button class="btn btn"><a href="#cotcon">内容管理</a></button>
+							<button class="btn btn-default"><a href="#addco">添加内容</a></button>
+						</div>
+						<div class="col-sm-8">
+							<h2>内容管理</h2>
+							<ul class="nav nav-tabs">
+								<li><a href="#cotcon" data-toggle="tab">内容管理</a></li>
+								<li><a href="#addco" data-toggle="tab">添加内容</a></li>
+							</ul>
+							<div class="tab-content">
+								<div class="tab-pane active" id="cotcon">
+									<table class="table">
+										<thead>
+											<td>文章标题</td>
+											<td>作者</td>
+											<td>发布时间</td>
+											<td>操作</td>
+										</thead>
+										<tr>
+											<td>泛MOOC职业教育，效果和就业为王</td>
+											<td>朱朝兵</td>
+											<td>20150808</td>
+											<td>
+												<div class="dropdown">
+													<button class="btn btn-default" data-toggle="dropdown">
+														操作<span class="caret"></span>
+													</button>
+													<ul class="dropdown-menu">
+														<li>编辑</li>
+														<li>删除</li>
+														<li>锁定</li>
+														<li>修改密码</li>
+													</ul>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>泛MOOC职业教育，效果和就业为王</td>
+											<td>朱朝兵</td>
+											<td>20150808</td>
+											<td>
+												<div class="dropdown">
+													<button class="btn btn-default" data-toggle="dropdown">
+														操作<span class="caret"></span>
+													</button>
+													<ul class="dropdown-menu">
+														<li>编辑</li>
+														<li>删除</li>
+														<li>锁定</li>
+														<li>修改密码</li>
+													</ul>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>泛MOOC职业教育，效果和就业为王</td>
+											<td>朱朝兵</td>
+											<td>20150808</td>
+											<td>
+												<div class="dropdown">
+													<button class="btn btn-default" data-toggle="dropdown">
+														操作<span class="caret"></span>
+													</button>
+													<ul class="dropdown-menu">
+														<li>编辑</li>
+														<li>删除</li>
+														<li>锁定</li>
+														<li>修改密码</li>
+													</ul>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>泛MOOC职业教育，效果和就业为王</td>
+											<td>朱朝兵</td>
+											<td>20150808</td>
+											<td>
+												<div class="dropdown">
+													<button class="btn btn-default" data-toggle="dropdown">
+														操作<span class="caret"></span>
+													</button>
+													<ul class="dropdown-menu">
+														<li>编辑</li>
+														<li>删除</li>
+														<li>锁定</li>
+														<li>修改密码</li>
+													</ul>
+												</div>
+											</td>
+										</tr>
+									</table>
+								</div>
+								<div class="tab-pane " id="addco">
+									<form action="" role="form" class="form-horizontal">
+										<div class="form-group">
+											<label for="" >标题</label>
+											<input type="text" class="form-control" placeholder="请输入正文标题" />
+										</div>
+										<div class="form-group">
+											<label for="">文章内容</label>
+											<textarea class="form-control" placeholder="请输入文章正文" rows="6"></textarea>
+										</div>
+										<div class="form-group">
+											<div class="col-sm-2">
+												<div class="col-sm-1">
+													<label for=""><input class="form-control" type="checkbox" /></label>
+													
+												</div>
+												<label  for="">全局置顶</label>
+											</div>
+											<div class="col-sm-8"></div>
+											<div class="col-sm-2">
+												<input class="btn btn-default " type="submit" value="发布文章" />
+											</div>
+											
+										</div>
+										
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<footer>
+			<p>Copyight 2012-2015 ICP第XXXXXX号-4</p>
+		</footer>
+		
+		
+		
+		<script type="text/javascript" src="js/wow.min.js"></script>
+		<script type="text/javascript" src='js/jquery.min.js'></script>
+		<script type="text/javascript" src='js/bootstrap.min.js'></script>
+		<script>
+		if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
+				new WOW().init();
+		};
+		</script>
+	</body>
+</html>
